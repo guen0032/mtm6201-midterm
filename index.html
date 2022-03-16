@@ -10,7 +10,9 @@
 <body>
     <div class="container">
         <header>
+            <!-- As I could not use the actual company logo, I hope my stand in title works -->
             <h1>The Big Soup</h1>
+            <!-- Site Navigation -->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -20,18 +22,21 @@
             </nav>
         </header>
         <main>
+            <!-- Hero Banner for the Homepage -->
             <div class="banner">
                 <div class="text-block">
                     <h2>Welcome friend, come in and warm your soul.</h2>
                     <p>Let yourself feel at home.</p>
                     <button>ORDER NOW!</button>
                 </div>
+                <!-- Could not for the life of me figure out how to add the image resolution swaps for the banner image and still have it cover the whole width of the screen -->
                 <img src="images/banner_img.png" alt="main-banner">
             </div>
-
+            <!-- Page info columns, originally meant as cards, however this format worked out much neater -->
             <div class="pages-info">
                 <div class="page">
                     <h3>About Us</h3>
+                    <!-- Image resolution switches -->
                     <picture class="image">
                         <source 
                         media="(min-width: 960px)"
@@ -48,13 +53,14 @@
                         srcset="images/about_img_480.jpg"
                         />
 
-                        <img src="images/about_img.png" width="100%" alt="picture of Vietnam flag and lanterns">
+                        <img src="images/about_img.png" style="width:100%" alt="picture of Vietnam flag and lanterns">
                     </picture>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed augue tortor. Integer interdum, ipsum eu molestie euismod, ligula neque scelerisque lacus, eget </p>
                     <button>Find out More</button>
                 </div>
                 <div class="page">
                     <h3>Our Menu</h3>
+                    <!-- Image resolution switches -->
                     <picture class="image">
                         <source 
                         media="(min-width: 960px)"
@@ -71,13 +77,14 @@
                         srcset="images/menu_img_480.jpg"
                         />
 
-                        <img src="images/menu_img.png" width="100%" alt="picture of rice wraps">
+                        <img src="images/menu_img.png" style="width:100%" alt="picture of rice wraps">
                     </picture>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed augue tortor. Integer interdum, ipsum eu molestie euismod, ligula neque scelerisque lacus, eget </p>
                     <button>See More</button>
                 </div>
                 <div class="page">
                     <h3>Contact Us</h3>
+                    <!-- Image resolution switches -->
                     <picture class="image">
                         <source 
                         media="(min-width: 960px)"
@@ -94,7 +101,7 @@
                         srcset="images/contact_img_480.jpg"
                         />
 
-                        <img src="images/contact_img.png" width="100%" alt="picture of flaming wok">
+                        <img src="images/contact_img.png" style="width:100%" alt="picture of flaming wok">
                     </picture>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed augue tortor. Integer interdum, ipsum eu molestie euismod, ligula neque scelerisque lacus, eget </p>
                     <button>Get in Touch</button>
