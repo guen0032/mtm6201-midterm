@@ -10,7 +10,9 @@
 <body>
     <div class="container">
         <header>
+            <!-- As I could not use the actual company logo, I hope my stand in title works -->
             <h1>The Big Soup</h1>
+            <!-- Site Navigation -->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -20,8 +22,10 @@
             </nav>
         </header>
         <main>
+            <!-- About Information Grid -->
             <div class="about-articles">
                 <div class="article">
+                    <!-- Image Resolution Switching For Desktop, Tablet, Phone -->
                     <picture class="image">
                         <source 
                         media="(min-width: 960px)"
@@ -47,6 +51,7 @@
                 </div>
                 <div class="article">
                     <picture>
+                        <!-- Image Resolution Switching For Desktop, Tablet, Phone -->
                         <source 
                         media="(min-width: 960px)"
                         srcset="images/spices_img_960.jpg"
@@ -70,12 +75,19 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus dapibus suscipit. Donec ac ornare felis. Curabitur in mi sed ex fringilla dictum porta eu elit. Vestibulum maximus ut sem ut auctor. Etiam sed rutrum quam. Nunc non metus eu arcu dictum condimentum. Aliquam ultricies justo sit amet sem fringilla hendrerit. Sed diam sem, molestie id maximus sit amet, elementum ut diam.</p>
                 </div>
             </div>
+            <!-- Social Media Icons -->
             <div class="socials">
-                <span>⭐</span>
-                <span>⭐</span>
-                <span>⭐</span>
-                <span>⭐</span>
-                <span>⭐</span>
+                <!-- Icons loaded in as SVG to optimize malleability -->
+                <svg id="Twitter" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+                    <rect id="Rectangle_393" data-name="Rectangle 393" width="56" height="56" transform="translate(0)" fill="none"/>
+                    <path id="Path_2" data-name="Path 2" d="M55.733,47.422C76.889,47.422,88.4,30,88.4,14.756V13.2A25.289,25.289,0,0,0,94,7.289a25.827,25.827,0,0,1-6.533,1.867,12.1,12.1,0,0,0,4.978-6.222,28.536,28.536,0,0,1-7.156,2.8A11.111,11.111,0,0,0,76.889,2,11.689,11.689,0,0,0,65.378,13.511,6.065,6.065,0,0,0,65.689,16,32.165,32.165,0,0,1,42.044,3.867a11.914,11.914,0,0,0-1.556,5.911,12.361,12.361,0,0,0,4.978,9.644,10.488,10.488,0,0,1-5.289-1.556h0a11.37,11.37,0,0,0,9.333,11.2,9.591,9.591,0,0,1-3.111.311,5.294,5.294,0,0,1-2.178-.311,11.786,11.786,0,0,0,10.889,8.089A23.49,23.49,0,0,1,40.8,42.133a8.613,8.613,0,0,1-2.8-.311,29.365,29.365,0,0,0,17.733,5.6" transform="translate(-38 -0.001)" fill="#c8392b" fill-rule="evenodd"/>
+                </svg>
+                <svg id="Facebook" xmlns="http://www.w3.org/2000/svg" width="29.244" height="56" viewBox="0 0 29.244 56">
+                    <path id="Path_1" data-name="Path 1" d="M98.978,56V30.489h8.711l1.244-9.956H98.978V14.311c0-2.8.933-4.978,4.978-4.978h5.289V.311C108,.311,104.889,0,101.467,0,94,0,88.711,4.667,88.711,13.067v7.467H80v9.956h8.711V56Z" transform="translate(-80)" fill="#c8392b" fill-rule="evenodd"/>
+                </svg>
+                <svg id="Instagram" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+                    <path id="Path_3" data-name="Path 3" d="M28,4.978c7.467,0,8.4,0,11.2.311a14.43,14.43,0,0,1,5.289.933,10.926,10.926,0,0,1,5.289,5.289,14.43,14.43,0,0,1,.933,5.289c0,2.8.311,3.733.311,11.2s0,8.4-.311,11.2a14.43,14.43,0,0,1-.933,5.289,10.926,10.926,0,0,1-5.289,5.289,14.43,14.43,0,0,1-5.289.933c-2.8,0-3.733.311-11.2.311s-8.4,0-11.2-.311a14.43,14.43,0,0,1-5.289-.933,10.926,10.926,0,0,1-5.289-5.289A14.43,14.43,0,0,1,5.289,39.2c0-2.8-.311-3.733-.311-11.2s0-8.4.311-11.2a14.43,14.43,0,0,1,.933-5.289A11.174,11.174,0,0,1,8.4,8.4a5.26,5.26,0,0,1,3.111-2.178A14.43,14.43,0,0,1,16.8,5.289c2.8-.311,3.733-.311,11.2-.311M28,0c-7.467,0-8.711,0-11.511.311A19.207,19.207,0,0,0,9.644,1.556,12.179,12.179,0,0,0,4.667,4.667,12.179,12.179,0,0,0,1.556,9.644C.622,11.511.311,13.378.311,16.489,0,19.289,0,20.533,0,28s0,8.711.311,11.511a19.207,19.207,0,0,0,1.244,6.844,12.179,12.179,0,0,0,3.111,4.978,12.179,12.179,0,0,0,4.978,3.111,19.207,19.207,0,0,0,6.844,1.244C19.289,56,20.533,56,28,56s8.711,0,11.511-.311a19.207,19.207,0,0,0,6.844-1.244,13.053,13.053,0,0,0,8.089-8.089,19.207,19.207,0,0,0,1.244-6.844C55.689,36.4,56,35.467,56,28s0-8.711-.311-11.511a19.207,19.207,0,0,0-1.244-6.844,12.179,12.179,0,0,0-3.111-4.978,12.179,12.179,0,0,0-4.978-3.111A19.207,19.207,0,0,0,39.511.311C36.711,0,35.467,0,28,0m0,13.689A14.081,14.081,0,0,0,13.689,28,14.311,14.311,0,1,0,28,13.689m0,23.644A9.167,9.167,0,0,1,18.667,28,9.167,9.167,0,0,1,28,18.667,9.167,9.167,0,0,1,37.333,28,9.167,9.167,0,0,1,28,37.333M42.933,9.644a3.422,3.422,0,1,0,3.422,3.422,3.453,3.453,0,0,0-3.422-3.422" fill="#c8392b" fill-rule="evenodd"/>
+                </svg>
                 <div>
                     <button>Follow Us!</button>
                 </div>
@@ -83,6 +95,7 @@
             
         </main>
         <footer>
+            <!-- Copyright Information -->
             <p>&copy; The Big Soup 2022</p>
         </footer>
     </div>

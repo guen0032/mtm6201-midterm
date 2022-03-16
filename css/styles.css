@@ -48,6 +48,7 @@ table {
 }
 
 /********** My Code **********/
+/*****************************/
 
 /********* Font Imports **********/
 
@@ -126,6 +127,25 @@ nav ul li {
 nav a {
   color: #F7CF46;
   text-decoration: none;
+}
+
+/*********** H1 Animation **********/
+
+@keyframes spinnin {
+  from {
+    transform: rotateX(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.container h1 {
+  animation-name: spinnin;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 /********** Nav Link Animation **********/
@@ -238,11 +258,18 @@ nav a:hover {
   margin-bottom: 2em;
 }
 
+/********** Social Media Icons **********/
+
 .socials {
   margin: auto;
   width: 50%;
   padding: 10px;
   text-align: center;
+}
+
+.socials svg {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .socials div {
@@ -304,7 +331,7 @@ input[type=submit] {
   padding: 0.5em 1.5em 0.5em 1.5em;
 }
 
-/********** Table Styling **********/
+/********** Table Styles **********/
 
 table {
   border-collapse: collapse;
