@@ -22,14 +22,48 @@
         <main>
             <div class="about-articles">
                 <div class="article">
-                    <img src="images/about_square_img.png" alt="picture of Vietnam flag and lanterns">
+                    <picture class="image">
+                        <source 
+                        media="(min-width: 960px)"
+                        srcset="images/about_img_960.jpg"
+                        />
+
+                        <source 
+                        media="(max-width: 480px)"
+                        srcset="images/about_img_480.jpg"
+                        />
+
+                        <source 
+                        media="(max-width: 720px)"
+                        srcset="images/about_img_720.jpg"
+                        />
+
+                        <img src="images/about_img.jpg" width="100%" alt="picture of Vietnam flag and lanterns">
+                    </picture>
                 </div>
                 <div class="article">
                     <h2>About Us</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus dapibus suscipit. Donec ac ornare felis. Curabitur in mi sed ex fringilla dictum porta eu elit. Vestibulum maximus ut sem ut auctor. Etiam sed rutrum quam. Nunc non metus eu arcu dictum condimentum. Aliquam ultricies justo sit amet sem fringilla hendrerit. Sed diam sem, molestie id maximus sit amet, elementum ut diam.</p>
                 </div>
                 <div class="article">
-                    <img src="images/spices_square_img.png" alt="picture of spices">
+                    <picture>
+                        <source 
+                        media="(min-width: 960px)"
+                        srcset="images/spices_img_960.jpg"
+                        />
+
+                        <source 
+                        media="(max-width: 480px)"
+                        srcset="images/spices_img_480.jpg"
+                        />
+
+                        <source 
+                        media="(max-width: 720px)"
+                        srcset="images/spices_img_720.jpg"
+                        />
+
+                        <img src="images/spices_img.jpg" width="100%" alt="picture of spices">
+                    </picture>    
                 </div>
                 <div class="article">
                     <h2>What Makes Pho so Special?</h2>

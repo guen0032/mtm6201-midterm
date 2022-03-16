@@ -322,7 +322,7 @@ tr:nth-child(even) {
 
 /********** Media Queries **********/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
   /* make grid into single column on tablet */
   .pages-info, .about-articles, .contact-section {
     display: grid;
